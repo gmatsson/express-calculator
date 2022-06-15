@@ -1,4 +1,4 @@
-import numberCruncher from '../../modules/calculation/numberCruncher.js'
+﻿import numberCruncher from '../../modules/calculation/numberCruncher.js'
 import percentage from '../../modules/calculation/util/percentage.js'
 
 jest.mock('../../modules/calculation/util/percentage.js')

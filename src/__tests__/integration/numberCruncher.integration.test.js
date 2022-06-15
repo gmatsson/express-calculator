@@ -1,4 +1,4 @@
-import numberCruncher from '../../modules/calculation/numberCruncher.js'
+﻿import numberCruncher from '../../modules/calculation/numberCruncher.js'
 
 describe('numberCruncher.js integration test', () => {
 

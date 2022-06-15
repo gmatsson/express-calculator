@@ -1,4 +1,4 @@
-import percentage from '../../modules/calculation/util/percentage.js'
+﻿import percentage from '../../modules/calculation/util/percentage.js'
 
 describe('percentage.js unit test', () => {
 

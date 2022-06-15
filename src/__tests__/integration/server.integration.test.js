@@ -1,4 +1,4 @@
-import server from '../../server.js'
+﻿import server from '../../server.js'
 import request from 'supertest'
 
 describe('server integration test', () => {
@@ -14,6 +14,6 @@ describe('server integration test', () => {
         result: 3
       }, done);
   });
-  
+
 });
 
