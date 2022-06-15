@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "test": "jest",
-    "unit-test": "node jest src/__tests__/unit",
-    "integration-test": "node jest src/__tests__/integration",
-    "e2e-test": "wait-on http://localhost:3000 && node jest src/__tests__/e2e"
+    "test": "node ./node_modules/.bin/jest.cmd",
+    "unit-test": "node ./node_modules/.bin/jest.cmd src/__tests__/unit",
+    "integration-test": "node ./node_modules/.bin/jest.cmd src/__tests__/integration",
+    "e2e-test": "wait-on http://localhost:3000 && node ./node_modules/.bin/jest src/__tests__/e2e"
   },
   "author": "Patrik Nygren",
   "license": "ISC",
