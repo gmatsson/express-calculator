@@ -4,19 +4,19 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                npm install
+                sh 'npm install'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
-                npm run unit-test
+                echo 'Testing..',
+                sh 'npm run unit-test'
             }
         }
         stage('Integration test') {
             steps {
                 echo 'Testing integration....'
-                npm run integration-test
+                sh 'npm run integration-test'
             }
         }
     }
