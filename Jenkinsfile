@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                @ECHO 'Building..'
                 sh 'npm install'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..',
+                sh 'echo 'Testing..'',
                 sh 'npm run unit-test'
             }
         }
