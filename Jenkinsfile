@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker { 
             image: 'node:14-alpine'
-            registry: 'https://registry.hub.docker.com'
+            registryUrl: 'https://registry.hub.docker.com'
             }
     }
     stages {
