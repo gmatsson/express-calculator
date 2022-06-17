@@ -1,6 +1,9 @@
 pipeline {
     agent {
-        docker { image: 'node:14-alpine'}
+        docker { 
+            image: 'node:14-alpine'
+            registry: 'https://registry.hub.docker.com'
+            }
     }
     stages {
         stage('Build') {
